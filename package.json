@@ -1,0 +1,21 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "test callback": "jest ./test/callback.test.js",
+    "coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.6"
+  }
+}
